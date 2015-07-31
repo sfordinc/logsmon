@@ -44,7 +44,7 @@ log_file_to_monitor = ['/var/log/apache2/access.log',
 result_log_file = 'out.log'
 
 list_of_matches = ['ERROR', 'WARNING']
-deny_list_of_matches = ['SSL error',
+deny_list_of_matches = ['SSL error: ',
                         'account is disable',
                         ]
 
