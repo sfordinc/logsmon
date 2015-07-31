@@ -5,7 +5,6 @@ English:
 This software is free.
 Bitcoin address for donations: 1M1mQ3i9TxZCAoofjjYJ1FuMA2ATrYdPAo
 Litecoin address: LePWhhnvEiaTcn7Dr85h6r5xn2ijLG41dy
-Doge address: LePWhhnvEiaTcn7Dr85h6r5xn2ijLG41dy
 Your donating will help to improve this project.
 
 Russian:
@@ -14,5 +13,4 @@ Russian:
 Данная программа бесплатна.
 Bitcoin кошелёк для пожертвований: 1M1mQ3i9TxZCAoofjjYJ1FuMA2ATrYdPAo
 Litecoin кошелёк: LePWhhnvEiaTcn7Dr85h6r5xn2ijLG41dy
-Doge кошелёк: DTeWUjvGQb7pdYqfgiYYsS4xRAPS8bXBRM
 Ваши пожертвования помогут развивать этот проект.
