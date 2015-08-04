@@ -1,6 +1,6 @@
 # logsmon
 English:
-"logsmon" is the system utility which to monitor many logs and flexible filtering. tailf + grep
+"logsmon" is the cross-platform system utility (python) which to monitor one or more log files and provides a flexible filtering. In fact, this using tail and grep utilities.
 
 This software is free.
 
@@ -11,7 +11,7 @@ Paypal donation: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_butt
 Your donating will help to improve this project.
 
 Russian:
-"logsmon" - это системная утилита, которая осуществляет мониторинг нескольких логов и гибкую фильтрацию. tailf + grep
+"logsmon" - это кроссплатформенная системная утилита на языке python, которая осуществляет мониторинг одного или нескольких лог файлов и осуществляет гибкую фильтрацию. По сути это совместное использование tail и grep утилит.
 
 Данная программа бесплатна.
 
