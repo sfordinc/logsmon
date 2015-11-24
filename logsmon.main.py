@@ -43,7 +43,7 @@ def text_file_2_list(text_filename):
     try:
         text_file = open(text_filename, 'r')
         line_list = [s_line.strip() for s_line in text_file if s_line.strip() and s_line[0] != '#']
-        print line_list
+        # print line_list
         text_file.close()
     finally:
         return line_list
