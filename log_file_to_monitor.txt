@@ -1,0 +1,2 @@
+test.log
+/var/log/cron.log
