@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf8 -*-
-# v.1.0.2
+# v.1.0.3
 
 import time
 
@@ -51,12 +51,12 @@ def text_file_2_list(text_filename):
 # Main Code
 
 time_interval = 0.01
-log_file_to_monitor = text_file_2_list('log_file_to_monitor.txt')
-result_log_file = 'test.out.log'
-list_of_matches = text_file_2_list('list_of_matches.txt')
-deny_list_of_matches = text_file_2_list('deny_list_of_matches.txt')
+result_log_filename = 'test.out.log'
+filename_list = ('log_file_to_monitor.txt', 'list_of_matches.txt', 'deny_list_of_matches.txt')
+log_file_to_monitor, list_of_matches, deny_list_of_matches = [text_file_2_list(filename) for filename in filename_list]
 
-matches = [process_matches(string_match, deny_list_of_matches, open(result_log_file, 'a')) for string_match in list_of_matches]
+result_log_file = open(result_log_filename, 'a')
+matches = [process_matches(string_match, deny_list_of_matches, result_log_file) for string_match in list_of_matches]
 
 for m in matches:   # prime matches
     m.next()
